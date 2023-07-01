@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#  by Ricardo Wagner
 # Update the apt package index
 echo "Updating the apt package index..."
 sudo apt update
@@ -67,3 +67,5 @@ if ! command -v docker &> /dev/null; then
 else
     echo "Docker is already installed. Skipping Docker installation."
 fi
+#install other usefull utilities (For me)
+sudo apt install bpytop glances 
