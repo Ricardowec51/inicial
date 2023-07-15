@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 #  by Ricardo Wagner
 # Update the apt package index
 echo "Updating the apt package index..."
